@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>David Shaibu | Python & Web Developer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
+  <script defer src="main.js"></script>
+</head>
+<body>
+  <header class="hero">
+    <div class="container">
+      <h1>David Shaibu</h1>
+      <p class="subtitle">Python Programmer | Web Developer</p>
+      <a href="#about" class="btn">Explore My Work ↓</a>
+    </div>
+  </header>
+
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="logo"></div>
+      <div class="menu-toggle" id="mobile-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li>
+  <label class="theme-switch">
+    <input type="checkbox" id="toggle-theme" />
+    <span class="slider">
+      <span class="icon sun">☀️</span>
+      <span class="icon moon">🌙</span>
+    </span>
+  </label>
+</li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="about" id="about">
+    <div class="container fade-in">
+      <h2>About Me</h2>
+      <p>
+        I'm a passionate Python programmer and web developer who enjoys building clean, efficient, and scalable digital solutions.
+        From backend logic to pixel-perfect UI, I love solving real-world problems with elegant code.
+      </p>
+      <blockquote>“Code is like humor. When you have to explain it, it’s bad.”</blockquote>
+    </div>
+  </section>
+
+  <section class="skills" id="skills">
+    <div class="container slide-in">
+      <h2>What I Do</h2>
+      <div class="skill-cards">
+        <div class="card">
+          <h3>Python Development</h3>
+          <p>From data analysis to backend automation, I write efficient Python code to solve real-world problems.</p>
+        </div>
+        <div class="card">
+          <h3>Web Development</h3>
+          <p>I create responsive and modern websites using HTML, CSS, JavaScript, and frameworks like Flask and Django.</p>
+        </div>
+        <div class="card">
+          <h3>Open Source & Backend</h3>
+          <p>Contributing to open-source projects and building scalable APIs with Flask and Django REST Framework.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="projects" id="projects">
+    <div class="container fade-in">
+      <h2>Projects</h2>
+      <div id="project-list" class="project-list"></div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="container slide-in">
+      <h2>Contact</h2>
+      <form id="contact-form">
+        <input type="text" placeholder="Your Name" name="name" required />
+        <input type="email" placeholder="Your Email" name="email" required />
+        <textarea placeholder="Your Message" name="message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+      <p>Email: <a href="mailto:shaibudavid4781@gmail.com">shaibudavid4781@gmail.com</a></p>
+      <div class="social-links">
+        <a href="https://github.com/Marshal-eth" target="_blank">GitHub</a>
+        <a href="https://linkedin.com/in/david-shaibu-152b89371" target="_blank">LinkedIn</a>
+        <a href="https://x.com/@marshaltrades" target="_blank">Twitter</a>
+      </div>
+      <a href="https://shorturl.at/udjsb" class="btn resume-card" download>📄 Download My Resume</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 David Shaibu. All rights reserved.</p>
+    <button id="back-to-top">⬆️ Back to Top</button>
+  </footer>
+</body>
+  <form action="https://formspree.io/f/your-form-id" method="POST">
+
+</html>
